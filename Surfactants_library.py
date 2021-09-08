@@ -11,9 +11,8 @@ IGEPal = {"cmc":0.08,"cmcUnit":"miliMolarity","molarMass":617,"cmcSource":"https
 
 print(Triton_x_100["cmc"])
 
-
-"""
-We need to create a function that converts the cmc from milimole
-surfactant to a grams per liter 
-
-"""
+def cmcConvert(placehold):
+    output=placehold["cmc"]*placehold["molarMass"]/1000
+    output="{:.5f}".format(output)
+    print("Concentration is ",output,"g/L.")
+    return

@@ -13,6 +13,7 @@ Pluronic_F_68={"cmc":.04,"cmcUnit":"miliMolarity","molarMass":8350,"cmcSource":"
 Turgiton_NP_10={"cmc":55, "cmcUnit":"ppm","molarMass":682,"cmsSource":"https://www.sigmaaldrich.com/US/en/product/sigma/np10?context=product"}
 Polysorbate_80= {"cmc":0.012,"cmcUnit":"miliMolarity","molarMass":1310,"cmcSource":"https://www.sigmaaldrich.com/US/en/product/sial/p1754"}
 Tween_80= {"cmc":0.019,"cmcUnit":"miliMolarity","molarMass":428.62,"cmcSource":"https://www.sciencedirect.com/science/article/pii/S2468023019305486"}
+Cocamidopropyl_Betaine= {"cmc":29,"cmcUnit":"ppm","molarMass":342.5,"cmcSource":"https://www.sciencedirect.com/science/article/pii/B9780128127056000149"}
 
 
 

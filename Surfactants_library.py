@@ -2,9 +2,8 @@
 import numpy as np
 import math
 
-"""
-Created on Tue Sep  7 09:24:56 2021
-"""
+
+
 
 Triton_x_100 = {"cmc": 0.2,"cmcUnit":"miliMolarity","molarMass":647,"cmcSource":"https://www.sigmaaldrich.com/US/en/product/sial/x100"}
 IGEPal = {"cmc":0.08,"cmcUnit":"miliMolarity","molarMass":617,"cmcSource":"https://www.sigmaaldrich.com/US/en/product/sigma/i8896"}
@@ -16,7 +15,7 @@ Tween_80= {"cmc":0.019,"cmcUnit":"miliMolarity","molarMass":428.62,"cmcSource":"
 Cocamidopropyl_Betaine= {"cmc":29,"cmcUnit":"ppm","molarMass":342.5,"cmcSource":"https://www.sciencedirect.com/science/article/pii/B9780128127056000149"}
 PEG_60_Caster_Oil= {"cmc":30,"cmcUnit":"ppm","molarMass":1119.6,"cmcSource":"calculated from manufacturer"}
 
-
+#test print out of cmc
 print(Pluronic_F_68["cmc"])
 
 def cmcConvert(placehold):
@@ -28,5 +27,5 @@ def cmcConvert(placehold):
     print("Concentration is ",output,"g/L.")
     return
 
-
+#Test print out of cmcconvert function
 print(cmcConvert(Triton_x_100))

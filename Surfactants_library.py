@@ -15,8 +15,9 @@ Polysorbate_80 = {"cmc":0.012,"cmcUnit":"miliMolarity","molarMass":1310,"source"
 Tween_80 = {"cmc":0.019,"cmcUnit":"miliMolarity","molarMass":428.62,"source":"https://www.sciencedirect.com/science/article/pii/S2468023019305486"}
 Cocamidopropyl_Betaine = {"cmc":29,"cmcUnit":"ppm","molarMass":342.5,"source":"https://www.sciencedirect.com/science/article/pii/B9780128127056000149"}
 Peg_60 = {"cmc": 200 ,"cmcUnit":"ppm","molarMass":2643,"source":"they emailed me"}
+Peg_600 = {"cmc": 6.667 ,"cmcUnit":"mol/m^3","molarMass":600,"source":"https://www.sciencedirect.com/science/article/pii/S0378381218300980"}
 
-
+#I believe the molarMass of PEg_60 needs to be changed from 2643 to 60
 #print(Pluronic_F_68["cmc"])
 
 def cmcConvert(placehold):
@@ -43,3 +44,5 @@ print("Peg 60")
 print(cmcConvert(Peg_60))
 
 
+print("Peg 600")
+print(cmcConvert(Peg_600))
